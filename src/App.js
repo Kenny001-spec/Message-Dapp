@@ -6,7 +6,8 @@ import "./App.css";
 function App() {
   const [message, setMessage] = useState(null);
   const [newMessage, setNewMessage] = useState("");
-  const [owner, setOwner] = useState("");
+
+  const [owner, setOwner] = useState("null");
   const [newOwner, setNewOwner] = useState("");
 
   //address
